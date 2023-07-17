@@ -1,0 +1,107 @@
+$color-azul: #1877F2;
+$color-crear-cuenta: #42b72a;
+
+@mixin card-display{
+    width: 12rem;
+    
+}
+
+
+.logo-svg{
+    height: 100px;
+    
+}
+
+.btn-iniciar{
+    background-color: $color-azul;
+    width: 20rem;
+    height: 3rem;
+    border-style: none;
+    border-radius: 5px;
+    .btn-login-desc{
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+    }
+}
+
+.btn-crear{
+    background-color: $color-crear-cuenta;
+    width: 15rem;
+    height: 3rem;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+    &:hover{
+        background-color: #48a036;
+    }
+    .btn-description{
+        text-decoration: none;
+        color: #fff; 
+        font-size: 1.5rem;
+        font-weight: bold;
+        
+    } 
+}
+
+.miss-password-content{
+    margin-top: 1.5rem;
+    a{
+        font-size: 1.1rem;
+        text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }    
+    }
+    }
+
+
+.card{
+    @include card-display();
+        .card-body{
+        text-align: center;
+        
+            .card-text{
+                text-align: center;
+                
+            }
+        }
+    &:hover{
+        transition: 0.1s;
+        box-shadow: 0 0 20px #b8b8b8 ;
+    }    
+    
+
+}
+
+.card-two{
+    @include card-display();
+    .card-icon{
+        background-color: rgb(240,242,245);
+        height: 189px;
+        align-items:  center;
+        display: flex;
+        justify-content: center;
+
+    i{
+       font-size: 70px;
+       color:$color-azul; 
+    }
+    }
+    .card-body{
+        .card-text{
+            color: $color-azul;
+        }
+    }
+
+
+}
+
+.step-separator{
+    border-top: 3px solid rgb(240,242,245);
+    
+}

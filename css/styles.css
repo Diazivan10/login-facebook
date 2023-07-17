@@ -1,0 +1,191 @@
+.logo-svg {
+  height: 100px;
+}
+
+.btn-iniciar {
+  background-color: #1877F2;
+  width: 20rem;
+  height: 3rem;
+  border-style: none;
+  border-radius: 5px;
+}
+.btn-iniciar .btn-login-desc {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-crear {
+  background-color: #42b72a;
+  width: 15rem;
+  height: 3rem;
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.btn-crear:hover {
+  background-color: #48a036;
+}
+.btn-crear .btn-description {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.miss-password-content {
+  margin-top: 1.5rem;
+}
+.miss-password-content a {
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.miss-password-content a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  width: 12rem;
+}
+.card .card-body {
+  text-align: center;
+}
+.card .card-body .card-text {
+  text-align: center;
+}
+.card:hover {
+  transition: 0.1s;
+  box-shadow: 0 0 20px #b8b8b8;
+}
+
+.card-two {
+  width: 12rem;
+}
+.card-two .card-icon {
+  background-color: rgb(240, 242, 245);
+  height: 189px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.card-two .card-icon i {
+  font-size: 70px;
+  color: #1877F2;
+}
+.card-two .card-body .card-text {
+  color: #1877F2;
+}
+
+.step-separator {
+  border-top: 3px solid rgb(240, 242, 245);
+}
+
+body {
+  background-color: rgb(240, 242, 245);
+  padding: 0;
+  margin: 0;
+}
+
+.principal {
+  padding-top: 50px;
+}
+
+.login-text {
+  margin-top: 1rem;
+}
+.login-text .title.login {
+  font-weight: bold;
+}
+.login-text .text-login {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.container-cards {
+  display: flex;
+  align-items: flex-start;
+}
+.container-cards .session-card {
+  display: flex;
+  gap: 3rem;
+}
+.container-cards .login {
+  margin-left: 3rem;
+}
+.container-cards .login .form-login {
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.container-cards .login .form-login:hover {
+  transition: 0.1s;
+  box-shadow: 0 0 20px #b8b8b8;
+}
+.container-cards .login .form-login .chk-number {
+  padding: 1rem 0.5rem;
+}
+.container-cards .login .form-login .chk-password {
+  padding: 0 0.5rem;
+}
+.container-cards .login .create-page-tittle {
+  margin-top: 2rem;
+  font-size: 18px;
+  text-align: center;
+}
+.container-cards .login .create-page-tittle .create-page-text {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container-cards .login .create-page-tittle .create-page-text:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 10rem;
+  background-color: #fff;
+}
+.footer .container-footer {
+  margin: 0 40px;
+  width: auto;
+}
+.footer .container-footer .footer-tittle .language {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  color: #737373;
+}
+.footer .container-footer .footer-tittle li {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-size: 15px;
+}
+.footer .container-footer .footer-tittle li i {
+  font-size: 1.5rem;
+}
+.footer .container-footer .footer-tittle li:hover {
+  text-decoration: underline;
+}
+.footer .container-footer .footer-text .others {
+  list-style: none;
+  color: #737373;
+  text-align: start;
+  display: flex;
+}
+.footer .container-footer .footer-text li {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: 15px;
+  text-align: center;
+}
+.footer .container-footer .footer-text li:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */
